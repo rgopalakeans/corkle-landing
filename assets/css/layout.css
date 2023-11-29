@@ -279,8 +279,9 @@ img {
 
 .button,
 .theme-button {
-    color: #fff;
+    color: var(--body_bg);
     background-color: var(--secondary_color);
+    border: 1px solid var(--secondary_color);
     padding: 1rem 1.5rem 1.1rem;
     border-radius: 50px;
     display: inline-block;
@@ -293,6 +294,7 @@ img {
 .theme-button:hover {
     color: #fff;
     background: var(--hover_color);
+    border: 1px solid var(--hover_color);
 }
 
 
@@ -301,7 +303,7 @@ img {
 .btn-group {
     width: 100%;
     display: block;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
